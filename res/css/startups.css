@@ -1,0 +1,122 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.kz-card {
+  background: black;
+  padding: 48px;
+  border-radius: 16px;
+}
+
+.kz-section-hero .kz-main {
+  background: #555555;
+  transition: 0.4s ease-in;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  /* overflow-y: scroll; */
+}
+
+.kz-section-hero .kz-scroll {
+  height: 300vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.kz-pattern {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(../img/texture.svg);
+  z-index: -1;
+}
+
+.kz-section-hero .kz-main .kz-container {
+  padding: 24px;
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.kz-section-hero .kz-main .kz-a {
+}
+
+#kz-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.kz-panel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.kz-a {
+  background: #ffc429;
+}
+
+.kz-b {
+  background: #f8a68d;
+}
+.kz-c {
+  background: #f6a1a6;
+}
+.kz-d {
+  background: #f284b2;
+}
+.kz-e {
+  background: #cc69a7;
+}
+.kz-f {
+  background: #ec7079;
+}
+.kz-g {
+  background: #8869a6;
+}
+.kz-h {
+  background: #b88bbe;
+}
+.kz-i {
+  background: #b2bee1;
+}
+.kz-j {
+  background: #91c4e5;
+}
+.kz-k {
+  background: #8095cc;
+}
+
+.kz-box {
+  margin: auto auto;
+  background-color: #111;
+  padding: 36px;
+  border-radius: 16px;
+  color: #ebebeb;
+}
+
+.kz-box h5 {
+  color: #dadee0;
+  font-size: 1rem;
+}
+
+.kz-box p {
+  color: #b3b6b8;
+  font-size: 0.9rem;
+}
+
+.kz-box .kz-float-box {
+  border-radius: 16px;
+  transform: translateX(-45%);
+  background-color: #fff;
+  width: 80%;
+}
+
+.kz-box .kz-float-box-alt {
+  border-radius: 16px;
+  transform: translateX(45%);
+  background-color: #fff;
+}

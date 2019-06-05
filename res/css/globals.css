@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.kz-section {
+  padding: 48px 0;
+}
+
+.kz-section-alt {
+  background-color: #fafafa;
+}
+
+.kz-section .section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: #020100;
+}
+
+.kz-section .section-title span {
+  color: #ffc429;
+}
+
+.kz-yellow {
+  color: #ffc429;
+}
+
+.kz-light {
+  font-weight: 300;
+}
+
+.kz-bold {
+  font-weight: 700;
+}
+
+.kz-btn {
+  background-color: #ffc429;
+  border-color: #ffc429;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.kz-btn:hover {
+  background-color: #da9e00;
+  border-color: #da9e00;
+  color: white;
+}
+
+.kz-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 196, 41, 0.25);
+}
+
+.kz-btn-lm {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #000;
+  border-color: #000;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.kz-btn-lm:hover {
+  color: white;
+}
+
+.kz-btn-lm:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.form-control:focus {
+  border-color: #ffc429;
+  box-shadow: 0 0 0 0.2rem rgba(218, 158, 0, 0.25);
+}

@@ -24,13 +24,17 @@
     />
     <link rel="stylesheet" href="res/css/globals.css" />
     <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/herocards.css" />
     <link rel="stylesheet" href="res/css/navbar.css" />
   </head>
   <body>
     <!-- ======================== -->
     <!--     SECTION 0: HERO      -->
     <!-- ======================== -->
-    <section class="kz-section-hero">
+    <section
+      class="kz-section-hero"
+      style="height: 100%; width: 100%; background-image: url(../img/texture.svg); z-index: -1;"
+    >
       <div class="kz-headbar d-flex justify-content-between">
         <img src="res/img/logo.jpg" alt="logo" class="kz-logo" />
 
@@ -66,10 +70,11 @@
           </li>
         </ul>
       </div>
-
-      <div class="kz-hero-box">
-        <h1>SIIC</h1>
-        <h2>innovate | incubate | inspire</h2>
+      <div class="conatiner">
+      <div class="row card-wrapper">
+        <div class="col-md-4 hero-cards"></div>
+        <div class="col-md-4 hero-cards"></div>
+      </div>
       </div>
     </section>
 

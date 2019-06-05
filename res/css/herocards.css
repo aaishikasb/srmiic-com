@@ -1,0 +1,10 @@
+.card-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hero-cards {
+  background-color: #000;
+  color: #fff;
+  width: 40%;
+  padding: 20px;
+}
