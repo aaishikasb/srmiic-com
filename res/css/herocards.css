@@ -1,27 +1,80 @@
-.card-wrapper {
-  padding-left: 50px;
-  padding-right: 50px;
-  position: relative;
-  position: relative;
+.card-wrapper{
+  position: absolute;
+  height: 100%;
   width: 100%;
   display: flex;
-  padding: 2%;
-  flex: 2;
-  justify-content: space-between;
+  top: 0%;
+  background-color: #000;
 }
-.hero-cards {
+.hero-cards1{
+  position: relative;
+  width: 43%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.hero-cards2{
+  position: relative;
+  width: 57%;
+  height: 100%;
+  background-color: #ffc429;
+  box-sizing: border-box;
+  border-left: 10vw solid #000;
+  border-bottom: 100vh solid #ffc429;
+}
+.hero-cards-heading1{
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  left: 20%;
+  transform: translate(-20%,-30%);
+  font-size: 70px;
+  font-weight: 600;
+}
+.hero-cards-heading2{
+  position: relative;
+  color: #000;
+  margin-top: 50vh;
+  font-size: 70px;
+  font-weight: 600;
+}
+.hero-cards-subheading1{
+  position: absolute;
+  color: #f1f1f1;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%,-50%);
+}
+.hero-cards-subheading2 {
+  position: relative;
+  margin-top: 5vh;
+  color: #000;
+}
+/* .card-wrapper {
+  position: relative;
+  width: 100%;
+  
+  display: flex;
+}
+.hero-cards1 , .hero-cards2 {
   position: relative;
   background-color: #000;
   color: #fff;
   padding: 2%;
-  width: 48%;
+  width: 50%;
   height: 70vh;
+  box-sizing: border-box;
 }
-.card-content {
+.hero-cards2 {
+  background-color: #ffc429;
+  color: #000;
+  border-left: 50px solid #000;
+  border-bottom: 60vh solid transparent;
+}
+.card-content1 , .card-content2{
   width: 100%;
   padding: 20px;
 }
-.mybtn {
+.mybtn1 , .mybtn2 {
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -32,8 +85,8 @@
   color: #fff;
   background-color: #000;
   border: 3px solid #fff;
-}
-.event-cards {
+}*/
+.event-cards{
   width: 100%;
 }
 .event-img img {
@@ -58,8 +111,9 @@
   background-color: #000;
   border: 3px solid #fff;
 }
-@media (max-width: 575px) {
-  .card-wrapper {
+/*
+@media (max-width: 575px){
+  .card-wrapper{
     margin-top: 20%;
   }
   .hero-cards {
@@ -73,6 +127,33 @@
     width: 80%;
   }
   .event-txt {
+    height: 250px;
+  }
+} */
+@media (max-width: 575px) {
+  .kz-section-hero{
+    height: 70vh;
+  }
+  .hero-cards1{
+    width: 48%;
+  }
+  .hero-cards2{
+    width: 52%;
+    border-bottom: 70vh solid #ffc429;
+  }
+  .hero-cards-heading1 , .hero-cards-heading2 {
+    font-size: 32px;
+  }
+  .hero-cards-subheading1 , .hero-cards-subheading2 {
+    font-size: 13px;
+  }
+  .hero-cards-subheading1 {
+    top: 70%;
+  }
+  .hero-cards-heading2{
+    margin-top: 30vh;
+  }
+  .event-txt{
     height: 250px;
   }
 }
