@@ -1,4 +1,4 @@
-$("#header__button").click(function() {
+$("#header__button").click(function () {
   $(this).toggleClass("hamburger--open");
   if ($(".kz-nav-menu").css("display") == "block") {
     $("body").removeClass("stop-scrolling");
@@ -7,7 +7,7 @@ $("#header__button").click(function() {
   } else {
     $("body").addClass("stop-scrolling");
     $(".kz-nav-menu").fadeIn(400);
-    $("body").bind("touchmove", function(e) {
+    $("body").bind("touchmove", function (e) {
       e.preventDefault();
     });
   }
@@ -38,7 +38,7 @@ function animateIncrementation() {
         {
           duration: 900,
           easing: "swing",
-          step: function(now) {
+          step: function (now) {
             $(e).text(Math.ceil(now));
           }
         }
@@ -54,11 +54,13 @@ var eventFired2 = false;
 
 console.log(gallery);
 
-$(window).scroll(function() {
+$(window).scroll(function () {
+  console.log("hello");
+
   console.log($(window).scrollTop() + $(window).height() * 0.85);
   console.log(
     $(window).scrollTop() + $(window).height() * 0.85 > gallery &&
-      eventFired2 == false
+    eventFired2 == false
   );
 
   if (
@@ -80,7 +82,7 @@ $(window).scroll(function() {
   }
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   if (
     $(window).scrollTop() + $(window).height() * 0.85 > number_bar &&
     eventFired == false

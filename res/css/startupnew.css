@@ -1,0 +1,28 @@
+@media (max-width:576px) {
+    .opt {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .section-title {
+        padding-top: 30px !important;
+    }
+}
+
+.kz-section-hero{
+    background: #ffc429;
+}
+
+.kz-hero-box{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.kz-hero-box img{
+    height: 120px;
+}
+
+.kz-hero-box p{
+    margin-bottom: 0
+}

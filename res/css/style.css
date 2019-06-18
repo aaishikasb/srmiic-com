@@ -7,6 +7,31 @@
   width: 100%;
   position: relative;
 }
+@media (max-width:576px){
+  .kz-logo{
+    transform: translateX(-30px);
+  }
+  .mb-carousel img , .mw-carousel img{
+    height: 300px !important;
+    padding: 30px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .mb-carousel .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .mb-carousel .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  .mw-carousel .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .mw-carousel .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+}
 
 .kz-section-hero .kz-hero-box {
   color: white;
@@ -28,7 +53,28 @@
   font-weight: 300;
   letter-spacing: 2px;
 }
-
+@media (max-width:576px){
+  .kz-section-hero .kz-hero-box h2 {
+    font-size: 1.2rem;
+  }
+}
+.applybtn{
+  margin-top: 50px;
+}
+.applybtn button{
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+.applybtn button:hover , .applybtn button:focus{
+  background-color: #000;
+  border: 5px solid #000;
+  color: #fff;
+}
 /* ========================= */
 /*      SECTION 2: ABOUT     */
 /* ========================= */
@@ -166,9 +212,9 @@
 /*      SECTION 8: VISITORS        */
 /* =============================== */
 
-.kz-section-visitors {
-  /* background-color: black; */
-}
+/* .kz-section-visitors {
+  /* background-color: black; 
+} */
 
 .kz-section-visitors .kz-grid div {
   filter: grayscale(1);
@@ -243,6 +289,12 @@
 }
 
 .kz-footer .kz-logo {
+  width: 100%;
+}
+@media(max-width: 576px){
+  .kz-footer .kz-logo {
+    padding-left: 30px;
+  }
 }
 
 .kz-footer .kz-logo img {
@@ -255,6 +307,11 @@
 
 .kz-footer .kz-logo p {
   font-weight: 300;
+}
+@media (max-width: 576px){
+ .kz-footer .kz-logo p{
+   font-size: 3vw;
+ }
 }
 
 .kz-footer p {
