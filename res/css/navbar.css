@@ -27,6 +27,16 @@
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
+.kz-headbar-dark .hamburger__inner::before,
+.kz-headbar-dark .hamburger__inner::after {
+  background: #000;
+}
+
+.kz-headbar-dark .hamburger__inner {
+  background: #000;
+}
+
 .hamburger__inner::before {
   bottom: 24px;
 }
@@ -58,6 +68,10 @@
   color: white;
   position: relative;
   padding: 36px 48px;
+}
+
+.kz-headbar-dark {
+  color: black;
 }
 
 .kz-logo {

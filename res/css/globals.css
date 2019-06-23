@@ -22,10 +22,12 @@ body {
 
 .kz-section {
   padding: 48px 0;
+  overflow: hidden;
 }
 
 .kz-section-alt {
   background-color: #fafafa;
+  overflow: hidden;
 }
 
 .kz-section .section-title {
@@ -34,7 +36,7 @@ body {
   letter-spacing: 1px;
   color: #020100;
 }
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .kz-section .section-title {
     font-size: 1.8rem;
     padding: 1%;
@@ -61,6 +63,7 @@ body {
   background-color: #ffc429;
   border-color: #ffc429;
   color: white;
+  width: 100%;
   padding-left: 24px;
   padding-right: 24px;
 }

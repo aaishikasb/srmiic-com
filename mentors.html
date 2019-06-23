@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/navbar.css" />
     <link rel="stylesheet" href="res/css/teams.css" />
-
   </head>
   <body>
     <!-- ======================== -->
@@ -52,19 +51,22 @@
       <div class="kz-nav-menu">
         <ul>
           <li onmouseover="updateNavImage(0)" onmouseout="updateNavImage(-1)">
-            <a href="#">about us</a>
+            <a href="index.html">Home</a>
           </li>
           <li onmouseover="updateNavImage(1)" onmouseout="updateNavImage(-1)">
-            <a href="#">what we offer</a>
+            <a href="events.html">What we offer</a>
           </li>
           <li onmouseover="updateNavImage(2)" onmouseout="updateNavImage(-1)">
-            <a href="#">mentors</a>
+            <a href="mentors.html">Mentors</a>
           </li>
           <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
-            <a href="#">partners</a>
+            <a href="companies.html">Partners</a>
           </li>
           <li onmouseover="updateNavImage(4)" onmouseout="updateNavImage(-1)">
-            <a href="#">facilities</a>
+            <a href="startupnew.html">Facilities</a>
+          </li>
+          <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
+            <a href="teams.html">Team</a>
           </li>
         </ul>
       </div>
@@ -81,47 +83,42 @@
 
     <section class="kz-section kz-section-startups container">
       <h2 class="section-title">
-        
-          <div class="button-group filters-button-group">
-              <button class="button is-checked" data-filter="*">All</button>
-              <button class="button" data-filter=".ai">AI</button>
-              <button class="button" data-filter=".ml">ML</button>
-              <button class="button" data-filter=".electricals">ELectricals</button>
-              <button class="button" data-filter=".rd">R & D</button>
-
-
-          </div>
-        
+        <div class="button-group filters-button-group">
+          <button class="button is-checked" data-filter="*">All</button>
+          <button class="button" data-filter=".ai">AI</button>
+          <button class="button" data-filter=".ml">ML</button>
+          <button class="button" data-filter=".electricals">ELectricals</button>
+          <button class="button" data-filter=".rd">R & D</button>
+        </div>
       </h2>
-     
 
-
-<section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
-  
-    <article class="ai ml ">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="electricals rd">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="rd">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="ai ml">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="electricals">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="ai ml">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-    <article class="rd">
-        <img src="res/img/nav1.jpg" class="img-responsive" />
-    </article>
-</section>
-
-</section>
+      <section
+        id="grid-container"
+        class="transitions-enabled fluid masonry js-masonry grid"
+      >
+        <article class="ai ml ">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="electricals rd">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="rd">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="ai ml">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="electricals">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="ai ml">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+        <article class="rd">
+          <img src="res/img/nav1.jpg" class="img-responsive" />
+        </article>
+      </section>
+    </section>
 
     <!-- ========================= -->
     <!--     SECTION 2: JOIN US      -->
@@ -139,7 +136,6 @@
               >Apply now<span class="kz-yellow">.</span></a
             >
           </div>
-          
         </div>
       </div>
     </section>
@@ -263,6 +259,6 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="res/js/script.js"></script>
     <script src="res/js/teams.js"></script>
-
+    <script src="res/js/navbar.js"></script>
   </body>
 </html>

@@ -36,19 +36,22 @@
     <div class="kz-nav-menu">
       <ul>
         <li onmouseover="updateNavImage(0)" onmouseout="updateNavImage(-1)">
-          <a href="#">about us</a>
+          <a href="about.html">About us</a>
         </li>
         <li onmouseover="updateNavImage(1)" onmouseout="updateNavImage(-1)">
-          <a href="#">what we offer</a>
+          <a href="events.html">What we offer</a>
         </li>
         <li onmouseover="updateNavImage(2)" onmouseout="updateNavImage(-1)">
-          <a href="#">mentors</a>
+          <a href="mentors.html">Mentors</a>
         </li>
         <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
-          <a href="#">partners</a>
+          <a href="companies.html">Partners</a>
         </li>
         <li onmouseover="updateNavImage(4)" onmouseout="updateNavImage(-1)">
-          <a href="#">facilities</a>
+          <a href="startups.html">Facilities</a>
+        </li>
+        <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
+          <a href="teams.html">Team</a>
         </li>
       </ul>
     </div>
@@ -128,8 +131,8 @@
   <!--    SECTION 3: NUMBER BAR      -->
   <!-- ============================= -->
 
-  <section class="kz-section kz-section-number-bar container">
-    <div class="row mt-2">
+  <section class="container kz-section kz-section-number-bar">
+    <div class="row mt-2" style="width:100%;">
       <div data-aos="zoom-in-up" class="col-6 col-md-3 text-center mb-5 kz-number-tile">
         <p>Startups</p>
         <p class="kz-number-tile-value">42</p>
@@ -191,29 +194,21 @@
     <h2 data-aos="fade-down" class="section-title"><span>W</span>all of fame<span>.</span></h2>
     <div class="d-none d-md-block">
       <div class="kz-grid mt-1">
-        <div class="one">
-          <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
+        <div class="one" id="imageSwap1">
         </div>
-        <div class="two">
-          <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
+        <div class="two" id="imageSwap2">
         </div>
-        <div class="three">
-          <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
+        <div class="three" id="imageSwap3">
         </div>
-        <div class="four">
-          <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
+        <div class="four" id="imageSwap4">
         </div>
-        <div class="five">
-          <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
+        <div class="five" id="imageSwap5">
         </div>
-        <div class="six">
-          <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
+        <div class="six" id="imageSwap6">
         </div>
-        <div class="seven">
-          <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
+        <div class="seven" id="imageSwap7">
         </div>
-        <div class="eight">
-          <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
+        <div class="eight" id="imageSwap8">
         </div>
       </div>
     </div>
@@ -288,16 +283,16 @@
     <div class="container mt-5">
       <form data-aos="zoom-in-up">
         <div class="form-row align-items-center">
-          <div class="col">
+          <div class="col-sm-12 col-md-4">
             <label class="sr-only" for="fieldName">Name</label>
             <input type="text" class="form-control mb-2" id="fieldName" placeholder="Full name" />
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-md-4">
             <label class="sr-only" for="fieldEmail">Email</label>
             <input type="email" class="form-control mb-2" id="fieldEmail" placeholder="Email address" />
           </div>
 
-          <div class="col-auto">
+          <div class="col-sm-12 col-md-4">
             <button type="submit" class="btn mb-2 kz-btn">
               Submit
             </button>
@@ -318,16 +313,16 @@
     <div class="container mt-5">
       <form data-aos="zoom-in-up">
         <div class="form-row align-items-center">
-          <div class="col">
+          <div class="col-sm-12 col-md-4">
             <label class="sr-only" for="fieldName">Name</label>
             <input type="text" class="form-control mb-2" id="fieldName" placeholder="Full name" />
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-md-4">
             <label class="sr-only" for="fieldEmail">Email</label>
             <input type="email" class="form-control mb-2" id="fieldEmail" placeholder="Email address" />
           </div>
 
-          <div class="col-auto">
+          <div class="col-sm-12 col-md-4">
             <button type="submit" class="btn mb-2 kz-btn">
               Sign me up
             </button>
@@ -508,6 +503,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="res/js/script.js"></script>
+  <script src="res/js/navbar.js"></script>
 
   <script>
     AOS.init();

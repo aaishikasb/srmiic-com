@@ -1,29 +1,282 @@
-$("#header__button").click(function () {
-  $(this).toggleClass("hamburger--open");
-  if ($(".kz-nav-menu").css("display") == "block") {
-    $("body").removeClass("stop-scrolling");
-    $(".kz-nav-menu").fadeOut(400);
-    $("body").unbind("touchmove");
-  } else {
-    $("body").addClass("stop-scrolling");
-    $(".kz-nav-menu").fadeIn(400);
-    $("body").bind("touchmove", function (e) {
-      e.preventDefault();
-    });
-  }
+//////////////////////////////////////////////
+//////   GRID IMAGE ASYNC ANIMATION   ///////
+////////////////////////////////////////////
+//1//
+$(document).ready(function() {
+  setImageOneOne();
 });
-
-function updateNavImage(index) {
-  const images = ["nav1.jpg", "nav2.jpg", "nav3.jpg", "nav4.jpg", "nav5.jpg"];
-  var val =
-    "linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.8)),url(res/img/" +
-    images[index] +
-    ")";
-  if (index == -1) {
-    val = "rgba(255,255,255,1)";
-  }
-  $(".kz-nav-menu").css("background", val);
+function setImageOneOne() {
+  $("#imageSwap1")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6000)
+    .fadeOut(1000, function() {
+      setImageOneTwo();
+    });
 }
+
+function setImageOneTwo() {
+  $("#imageSwap1")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6000)
+    .fadeOut(1000, function() {
+      setImageOneThree();
+    });
+}
+
+function setImageOneThree() {
+  $("#imageSwap1")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6000)
+    .fadeOut(1000, function() {
+      setImageOneOne();
+    });
+}
+//1 ends //
+
+//2//
+$(document).ready(function() {
+  setImageTwoOne();
+});
+function setImageTwoOne() {
+  $("#imageSwap2")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6201)
+    .fadeOut(1000, function() {
+      setImageTwoTwo();
+    });
+}
+
+function setImageTwoTwo() {
+  $("#imageSwap2")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6201)
+    .fadeOut(1000, function() {
+      setImageTwoThree();
+    });
+}
+
+function setImageTwoThree() {
+  $("#imageSwap2")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6201)
+    .fadeOut(1000, function() {
+      setImageTwoOne();
+    });
+}
+// 2 ends //
+//3//
+$(document).ready(function() {
+  setImageThreeOne();
+});
+function setImageThreeOne() {
+  $("#imageSwap3")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(5957)
+    .fadeOut(1000, function() {
+      setImageThreeTwo();
+    });
+}
+
+function setImageThreeTwo() {
+  $("#imageSwap3")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(5957)
+    .fadeOut(1000, function() {
+      setImageThreeThree();
+    });
+}
+
+function setImageThreeThree() {
+  $("#imageSwap3")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(5957)
+    .fadeOut(1000, function() {
+      setImageThreeOne();
+    });
+}
+// 3 ends //
+//4//
+$(document).ready(function() {
+  setImageFourOne();
+});
+function setImageFourOne() {
+  $("#imageSwap4")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6110)
+    .fadeOut(1000, function() {
+      setImageFourTwo();
+    });
+}
+
+function setImageFourTwo() {
+  $("#imageSwap4")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6110)
+    .fadeOut(1000, function() {
+      setImageFourThree();
+    });
+}
+
+function setImageFourThree() {
+  $("#imageSwap4")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6110)
+    .fadeOut(1000, function() {
+      setImageFourOne();
+    });
+}
+// 4 ends //
+//5//
+$(document).ready(function() {
+  setImageFiveOne();
+});
+function setImageFiveOne() {
+  $("#imageSwap5")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6523)
+    .fadeOut(1000, function() {
+      setImageFiveTwo();
+    });
+}
+
+function setImageFiveTwo() {
+  $("#imageSwap5")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6523)
+    .fadeOut(1000, function() {
+      setImageFiveThree();
+    });
+}
+
+function setImageFiveThree() {
+  $("#imageSwap5")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6523)
+    .fadeOut(1000, function() {
+      setImageFiveOne();
+    });
+}
+// 5 ends //
+//6//
+$(document).ready(function() {
+  setImageSixOne();
+});
+function setImageSixOne() {
+  $("#imageSwap6")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(5879)
+    .fadeOut(1000, function() {
+      setImageSixTwo();
+    });
+}
+
+function setImageSixTwo() {
+  $("#imageSwap6")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(5879)
+    .fadeOut(1000, function() {
+      setImageSixThree();
+    });
+}
+
+function setImageSixThree() {
+  $("#imageSwap6")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(5879)
+    .fadeOut(1000, function() {
+      setImageSixOne();
+    });
+}
+// 6 ends //
+//7//
+$(document).ready(function() {
+  setImageSevenOne();
+});
+function setImageSevenOne() {
+  $("#imageSwap7")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6623)
+    .fadeOut(1000, function() {
+      setImageSevenTwo();
+    });
+}
+
+function setImageSevenTwo() {
+  $("#imageSwap7")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6623)
+    .fadeOut(1000, function() {
+      setImageSevenThree();
+    });
+}
+
+function setImageSevenThree() {
+  $("#imageSwap7")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6623)
+    .fadeOut(1000, function() {
+      setImageSevenOne();
+    });
+}
+// 7 ends //
+//8//
+$(document).ready(function() {
+  setImageEightOne();
+});
+function setImageEightOne() {
+  $("#imageSwap8")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />')
+    .delay(6791)
+    .fadeOut(1000, function() {
+      setImageEightTwo();
+    });
+}
+
+function setImageEightTwo() {
+  $("#imageSwap8")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />')
+    .delay(6791)
+    .fadeOut(1000, function() {
+      setImageEightThree();
+    });
+}
+
+function setImageEightThree() {
+  $("#imageSwap8")
+    .fadeIn(1000)
+    .html('<img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />')
+    .delay(6791)
+    .fadeOut(1000, function() {
+      setImageEightOne();
+    });
+}
+// 8 ends //
+/////////////////////////////////////////
+/////   ANIMATION ENDS HERE   //////////
+///////////////////////////////////////
 
 function animateIncrementation() {
   $(".kz-number-tile-value").each((index, e) => {
@@ -38,7 +291,7 @@ function animateIncrementation() {
         {
           duration: 900,
           easing: "swing",
-          step: function (now) {
+          step: function(now) {
             $(e).text(Math.ceil(now));
           }
         }
@@ -54,13 +307,13 @@ var eventFired2 = false;
 
 console.log(gallery);
 
-$(window).scroll(function () {
+$(window).scroll(function() {
   console.log("hello");
 
   console.log($(window).scrollTop() + $(window).height() * 0.85);
   console.log(
     $(window).scrollTop() + $(window).height() * 0.85 > gallery &&
-    eventFired2 == false
+      eventFired2 == false
   );
 
   if (
@@ -82,7 +335,7 @@ $(window).scroll(function () {
   }
 });
 
-$(document).ready(function () {
+$(document).ready(function() {
   if (
     $(window).scrollTop() + $(window).height() * 0.85 > number_bar &&
     eventFired == false

@@ -7,11 +7,12 @@
   width: 100%;
   position: relative;
 }
-@media (max-width:576px){
-  .kz-logo{
+@media (max-width: 576px) {
+  .kz-logo {
     transform: translateX(-30px);
   }
-  .mb-carousel img , .mw-carousel img{
+  .mb-carousel img,
+  .mw-carousel img {
     height: 300px !important;
     padding: 30px !important;
     padding-left: 40px !important;
@@ -53,15 +54,15 @@
   font-weight: 300;
   letter-spacing: 2px;
 }
-@media (max-width:576px){
+@media (max-width: 576px) {
   .kz-section-hero .kz-hero-box h2 {
     font-size: 1.2rem;
   }
 }
-.applybtn{
+.applybtn {
   margin-top: 50px;
 }
-.applybtn button{
+.applybtn button {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -70,7 +71,8 @@
   border: 5px solid #fff;
   border-radius: 10px;
 }
-.applybtn button:hover , .applybtn button:focus{
+.applybtn button:hover,
+.applybtn button:focus {
   background-color: #000;
   border: 5px solid #000;
   color: #fff;
@@ -291,7 +293,7 @@
 .kz-footer .kz-logo {
   width: 100%;
 }
-@media(max-width: 576px){
+@media (max-width: 576px) {
   .kz-footer .kz-logo {
     padding-left: 30px;
   }
@@ -308,10 +310,10 @@
 .kz-footer .kz-logo p {
   font-weight: 300;
 }
-@media (max-width: 576px){
- .kz-footer .kz-logo p{
-   font-size: 3vw;
- }
+@media (max-width: 576px) {
+  .kz-footer .kz-logo p {
+    font-size: 3vw;
+  }
 }
 
 .kz-footer p {
