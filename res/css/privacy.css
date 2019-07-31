@@ -1,0 +1,40 @@
+.privacy-hero {
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/policy-hero-bg.svg');
+}
+.heroimg{
+    position: absolute;
+    bottom: -12%;
+    left: 15%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.heroimg img{
+    height: 30rem;
+    width: 18rem;
+    overflow: hidden;
+}
+
+@media (max-width: 576px){
+    .heroimg{
+        bottom: -5%;
+    }
+    .heroimg img{
+        height: 15rem;
+        width: 10rem;
+    }
+}
+.privacy-policy img{
+    height: 180px;
+    width: 230px;
+    /* padding-bottom: 50px; */
+}
+.privacy-title span{
+    border-bottom: 1px solid #ffc429;
+    padding-bottom: 5px;
+}
+.privacy-content {
+    font-size: 15px;
+}

@@ -86,7 +86,7 @@
 }
 .sq3{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: -12%;
     width: 200px;
     height: 350px;
@@ -101,18 +101,63 @@
 }
 @keyframes iconshifty {
     0% {
-        top: 40%;
+        top: 30%;
     }
     50% {
         top: 70%;
     }
     100% {
-        top: 40%;
+        top: 30%;
+    }
+}
+.sq4{
+    position: absolute;
+    top: 23%;
+    left: 12%;
+    width: 90%;
+    height: 30px;
+    border-top: 20px solid #CEEAA7;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.4;
+    animation-name: iconrotateshift;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes iconrotateshift {
+    0% {
+        top: 23%;
+        right: 03%;
+    }
+    20% {
+        top: 29%;
+        left: 09%;
+        transform: rotate(95deg);
+    }
+    40% {
+        top: 32%;
+        right: 11%;
+        transform: rotate(197deg);
+    }
+    60% {
+        top: 37%;
+        left: 14%;
+        transform: rotate(240deg);
+    }
+    80%{
+        top: 27%;
+        left: 08%;
+        transform: rotate(298deg);
+    }
+    100% {
+        top: 23%;
+        right: 03%;
+        transform: rotate(360deg);
     }
 }
 .sq5{
     position: absolute;
-    bottom: -15%;
+    bottom: -8%;
     right: 5%;
     width: 300px;
     height: 300px;
@@ -152,6 +197,9 @@
     }
     .sq3{
         left: -50%;
+    }
+    .sq4{
+        top: 2%;
     }
     .sq5{
         bottom: -5%;
@@ -216,4 +264,7 @@
 }
 .linkd{
     color: #0077B5;
+}
+.twitr{
+    color: #1da1f2;
 }
