@@ -1,5 +1,5 @@
 // LOLOLOL
-var array = ["res/img/nav2.jpg", "res/img/nav1.jpg", "res/img/nav3.jpg"]
+var array = ["res/img/TT/1.jpeg", "res/img/TT/2.jpeg", "res/img/TT/3.jpeg", "res/img/TT/4.jpeg", "res/img/TT/5.jpeg", "res/img/TT/6.jpeg", "res/img/TT/7.jpeg", "res/img/TT/8.jpg", "res/img/TT/9.jpg", "res/img/TT/10.jpg", "res/img/TT/11.jpg", "res/img/TT/12.jpg", "res/img/TT/13.jpg", "res/img/TT/14.jpg", "res/img/TT/15.jpeg", "res/img/TT/16.jpg"]
 
 function getRandomImage() {
   return array[Math.floor(Math.random() * array.length)];
