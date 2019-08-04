@@ -27,39 +27,48 @@
                 <div class="hamburger__inner"></div>
             </a>
 
-            <div>
-                <a style="text-decoration: none; color: inherit;" href="#"><span
+            <div data-aos="fade-left" class="d-none d-md-block">
+                <a style="text-decoration: none; color: inherit;" href="http://bit.ly/SIICform"><span
                         style="text-transform: uppercase; letter-spacing: 0.3px;">Apply now
-                        <span style="" class="fas fa-angle-right ml-2"></span></span></a>
+                        <span class="fas fa-angle-right ml-2"></span></span></a>
             </div>
         </div>
 
         <div class="kz-nav-menu">
             <ul>
-                <li onmouseover="updateNavImage(0)" onmouseout="updateNavImage(-1)">
+                <li onmousehover="updateNavImage(7)" onmouseout="updateNavImage(-1)">
                     <a href="index.html">Home</a>
+                </li>
+                <li onmouseover="updateNavImage(0)" onmouseout="updateNavImage(-1)">
+                    <a href="#aboutus">About us</a>
                 </li>
                 <li onmouseover="updateNavImage(1)" onmouseout="updateNavImage(-1)">
                     <a href="events.html">What we offer</a>
                 </li>
-                <li onmouseover="updateNavImage(2)" onmouseout="updateNavImage(-1)">
-                    <a href="mentors.html">Mentors</a>
+                <!-- <li onmouseover="updateNavImage(2)" onmouseout="updateNavImage(-1)">
+                          <a href="mentors.html">Mentors</a>
+                        </li>
+                        <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
+                          <a href="companies.html">Partners</a>
+                        </li>
+                        <li onmouseover="updateNavImage(4)" onmouseout="updateNavImage(-1)">
+                          <a href="allstartup.html">Facilities</a>
+                        </li> -->
+                <li onmouseover="updateNavImage(6)" onmouseout="updateNavImage(-1)">
+                    <a href="teams.html">Our Teams</a>
                 </li>
-                <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
-                    <a href="companies.html">Partners</a>
-                </li>
-                <li onmouseover="updateNavImage(4)" onmouseout="updateNavImage(-1)">
-                    <a href="startupnew.html">Facilities</a>
-                </li>
-                <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
-                    <a href="teams.html">Team</a>
+                <li onmouseover="updateNavImage(5)" onmouseout="updateNavImage(-1)">
+                    <a href="siicteam.html">SIIC Team</a>
                 </li>
             </ul>
         </div>
 
         <div class="kz-hero-box">
-            <h1>STARTUPS</h1>
-            <h2>innovate | incubate | inspire</h2>
+            <h1 data-aos="fade-down">Startups</h1>
+            <h2 data-aos="fade-up">innovate | incubate | inspire</h2>
+            <div data-aos="fade-up" class="d-sm-block d-md-none applybtn">
+                <a href="http://bit.ly/SIICform"><button>Apply Now</button></a>
+            </div>
         </div>
     </section>
 
@@ -132,7 +141,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-3">
-                    <div class="kz-logo mb-4">
+                    <div class="kz-logo mb-5">
                         <img src="res/img/logo.jpg" alt="logo" />
                         <p class="mt-2">SRM Innovation and Incubation Centre</p>
                     </div>
@@ -146,13 +155,13 @@
                     <p class="kz-yellow kz-bold kz-footer-subtitle">Information</p>
                     <ul>
                         <li class="kz-small kz-light">
-                            <a href="#">About us<span class="kz-yellow">.</span></a>
+                            <a href="#aboutus">About us<span class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">Events<span class="kz-yellow">.</span></a>
+                            <a href="events.html">Events<span class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">Teams<span class="kz-yellow">.</span></a>
+                            <a href="siicteam.html">Teams<span class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
                             <a href="#">Startups<span class="kz-yellow">.</span></a>
@@ -176,10 +185,7 @@
                             <a href="#">Mentors<span class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">Integrated workspaces<span class="kz-yellow">.</span></a>
-                        </li>
-                        <li class="kz-small kz-light">
-                            <a href="#">Privacy policy<span class="kz-yellow">.</span></a>
+                            <a href="privacy.html">Privacy policy<span class="kz-yellow">.</span></a>
                         </li>
                     </ul>
                 </div>
@@ -188,36 +194,41 @@
                     <p class="kz-yellow kz-bold kz-footer-subtitle">Connect</p>
                     <ul>
                         <li class="kz-small kz-light">
-                            <a href="#">Facebook<span class="kz-yellow">.</span></a>
+                            <a href="https://www.facebook.com/srmiic/" target="_blank">Facebook<span
+                                    class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">Twitter<span class="kz-yellow">.</span></a>
+                            <a href="http://twitter.com/srmiic" target="_blank">Twitter<span
+                                    class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">Instagram<span class="kz-yellow">.</span></a>
+                            <a href="http://instagram.com/srmfablab" target="_blank">Instagram<span
+                                    class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="#">LinkedIn<span class="kz-yellow">.</span></a>
+                            <a href="https://www.linkedin.com/company/srm-innovation-and-incubation-centre"
+                                target="_blank">LinkedIn<span class="kz-yellow">.</span></a>
                         </li>
                         <li class="kz-small kz-light">
-                            <a href="mailto:manager@srmiic.com">Email<span class="kz-yellow">.</span></a>
+                            <a href="mailto:hello@srmiic.com" target="_blank">Email<span class="kz-yellow">.</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="row mt-5 mb-2 mx-auto"
-                style="background-color: rgba(255, 255, 255, 0.4); height: 1px; width: 90%;"></div>
+                style="background-color: rgba(255, 255, 255, 0.4); height: 1px; width: 90%;">
+            </div>
 
             <div class="kz-footnote mt-4">
                 <div class="one">
                     crafted with
                     <span style="color: #cc3336;" class="fas fa-heart"></span> by
-                    <a href="#">SRMKZILLA</a><span class="kz-yellow">.</span>
+                    <a href="https://srmkzilla.net/">SRMKZILLA</a><span class="kz-yellow">.</span>
                 </div>
 
                 <div class="three text-right">
-                    supported by <a href="#">SRMIST</a><span class="kz-yellow">.</span>
+                    supported by <a href="http://www.srmuniv.ac.in/">SRMIST</a><span class="kz-yellow">.</span>
                 </div>
             </div>
         </div>
