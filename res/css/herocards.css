@@ -1,3 +1,9 @@
+.event-hero{
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/texture.svg);
+  z-index: -1;
+}
 .card-wrapper{
   position: absolute;
   height: 100%;
@@ -16,7 +22,6 @@
   position: relative;
   width: 57%;
   height: 100%;
-  background-color: #ffc429;
   box-sizing: border-box;
   border-left: 10vw solid #000;
   border-bottom: 100vh solid #ffc429;
@@ -89,9 +94,21 @@
 .event-cards{
   width: 100%;
 }
+.event-box{
+  margin-top: 30px;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 21px -6px rgba(0,0,0,0.88);
+  -moz-box-shadow: 0px 2px 21px -6px rgba(0,0,0,0.88);
+  box-shadow: 0px 2px 21px -6px rgba(0,0,0,0.88);
+  overflow: hidden;
+}
 .event-img img {
-  max-width: 100%;
-  max-height: 100%;
+  height: 120px;
+  border-right: 1px solid #000;
 }
 .event-txt {
   padding: 20px;
@@ -131,14 +148,21 @@
   }
 } */
 @media (max-width: 575px) {
+  .event-img img{
+    width: 100px;
+  height: 80px;
+  }
   .kz-section-hero{
     height: 70vh;
   }
   .hero-cards1{
+    box-sizing: border-box;
     width: 48%;
   }
   .hero-cards2{
     width: 52%;
+    box-sizing: border-box;
+    border-left: 10vw solid #000;
     border-bottom: 70vh solid #ffc429;
   }
   .hero-cards-heading1 , .hero-cards-heading2 {

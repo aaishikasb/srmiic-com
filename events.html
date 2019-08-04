@@ -20,56 +20,57 @@
   <!-- ======================== -->
   <!--     SECTION 0: HERO      -->
   <!-- ======================== -->
-  <section class="kz-section-hero"
-    style="height: 100%; width: 100%; background-image: url(../img/texture.svg); z-index: -1;">
+  <section class="kz-section-hero event-hero">
     <div class="kz-headbar d-flex justify-content-between">
-      <img src="res/img/logo.jpg" alt="logo" class="kz-logo" />
+      <img data-aos="fade-right" src="res/img/logo.jpg" alt="logo" class="kz-logo" />
 
-      <a id="header__button" class="hamburger">
+      <a id="header__button" class="hamburger" href="#">
         <div class="hamburger__inner"></div>
       </a>
 
-      <div>
+      <div data-aos="fade-left" class="d-none d-md-block">
         <a style="text-decoration: none; color: inherit;" href="#"><span
             style="text-transform: uppercase; letter-spacing: 0.3px;">Apply now
             <span style="" class="fas fa-angle-right ml-2"></span></span></a>
       </div>
     </div>
 
-    <!-- ============================= -->
-    <!--      SECTION 1: HERO CARDS    -->
-    <!-- ============================= -->
-    <!-- <div class="card-wrapper">
-      <div class="hero-cards1">
-        <h5 class="text-center">TRIUMPH TALKS</h5>
-        <div class="card-content1">
-          <h2>This is card 1</h2>
-        </div>
-        <button class="mybtn1">
-          Learn More
-        </button>
-      </div>
-      <div class="hero-cards2">
-        <h5 class="text-center">SHOWTIME</h5>
-        <div class="card-content2">
-          <h2>This is card 2</h2>
-        </div>
-        <button class="mybtn2">
-          Learn More
-        </button>
-      </div>
-    </div> -->
+    <div class="kz-nav-menu">
+      <ul>
+        <li onmouseover="updateNavImage(0)" onmouseout="updateNavImage(-1)">
+          <a href="#aboutus">About us</a>
+        </li>
+        <li onmouseover="updateNavImage(1)" onmouseout="updateNavImage(-1)">
+          <a href="events.html">What we offer</a>
+        </li>
+        <li onmouseover="updateNavImage(2)" onmouseout="updateNavImage(-1)">
+          <a href="mentors.html">Mentors</a>
+        </li>
+        <li onmouseover="updateNavImage(3)" onmouseout="updateNavImage(-1)">
+          <a href="companies.html">Partners</a>
+        </li>
+        <li onmouseover="updateNavImage(4)" onmouseout="updateNavImage(-1)">
+          <a href="allstartup.html">Facilities</a>
+        </li>
+        <li onmouseover="updateNavImage(6)" onmouseout="updateNavImage(-1)">
+          <a href="teams.html">Team</a>
+        </li>
+        <li onmouseover="updateNavImage(5)" onmouseout="updateNavImage(-1)">
+          <a href="siicteam.html">SIIC Team</a>
+        </li>
+      </ul>
+    </div>
     <div class="card-wrapper">
       <div class="hero-cards1">
         <h2 class="hero-cards-heading1">Triumph Talks</h2>
-        <p class="hero-cards-subheading1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore
-          magna aliqua.</p>
+        <p class="hero-cards-subheading1">Triumph Talks, a series of talks where eminent personalities have a one on one
+          conversations with the students to develop the thinking and mindset
+          required to excel in their respective fields.</p>
       </div>
       <div class="hero-cards2">
         <h2 class="hero-cards-heading2">Show Time</h2>
-        <p class="hero-cards-subheading2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.</p>
+        <p class="hero-cards-subheading2">A platform which can be used by students to showcase their new invention,
+          prototype or technology they have come up with.</p>
       </div>
     </div>
   </section>
@@ -80,213 +81,48 @@
 
   <section class="kz-section kz-section-startups container">
     <h2 class="section-title">
-      <span>U</span>pcoming Events<span>.</span>
+      <span>P</span>ast Events<span>.</span>
     </h2>
 
     <div class="container" style="margin-top: 70px;">
-      <div class="row" style="margin-top: 30px; padding: 20px;">
+      <div class="row text-center">
+        <div class="event-box">
+          <div class="col-md-2">
+            <div class="event-img">
+              <img src="res/img/logo.jpg" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="event-heading">
+              <h3>Creed Motor Works</h3>
+            </div>
+            <div class="event-content">
+              <p>A platform which can be used by students to showcase their new invention,
+                prototype or technology they have come up with.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center" style="margin-top: 30px; padding: 20px;">
         <div class="col-md-2" style="padding: 0px;">
           <div class="event-img">
-            <img src="res/img/jelly.jpg" style="height: 250px; width: 100%;" />
-          </div>
-        </div>
-        <div class="col-6 col-md-3 text-center mb-5">
-          <img class="w-100" style="max-width: 100px;" src="res/img/logo.jpg" />
-        </div>
-        <div class="col-6 col-md-3 text-center mb-5">
-          <img class="w-100" style="max-width: 100px;" src="res/img/logo.jpg" />
-        </div>
-        <div class="col-6 col-md-3 text-center mb-5">
-          <img class="w-100" style="max-width: 100px;" src="res/img/logo.jpg" />
-        </div>
-      </div>
-  </section>
-
-  <!-- ========================= -->
-  <!--     SECTION 2: ABOUT      -->
-  <!-- ========================= -->
-
-  <section class="kz-section kz-section-about kz-section-alt">
-    <h2 class="section-title"><span>A</span>bout us<span>.</span></h2>
-    <div class="container mt-5">
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <p>
-            Nostrud laboris consequat ex ut duis cillum sit incididunt duis
-            ea. Eu minim nostrud eiusmod voluptate. Qui commodo consectetur
-            consequat proident occaecat aute duis. Ut exercitation tempor sint
-            Lorem Lorem aliquip do voluptate et id elit deserunt id ea. Ad
-            irure mollit id irure consequat quis excepteur duis commodo
-            consequat voluptate quis. Qui laboris minim laborum aliquip
-            cupidatat do do voluptate velit consectetur. <br /><br />
-            Commodo esse labore velit in consectetur in voluptate ipsum
-            commodo dolor excepteur ad fugiat. Ullamco elit sint voluptate
-            culpa officia duis sunt qui commodo. Aliquip officia laborum
-            eiusmod consequat ut occaecat sit id. Et aliqua fugiat qui ad sit
-            culpa. Enim adipisicing duis ea ipsum laboris. Non nisi aliquip
-            veniam sit eiusmod ad pariatur duis adipisicing ex velit voluptate
-            magna ea.
-          </p>
-          <a href="#" class="btn kz-btn-lm">Learn more<span class="kz-yellow">.</span></a>
-        </div>
-        <div class="col-sm-6">
-          <div class="container">
-            <div class="row">
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-            </div>
+            <img src="res/img/logo.jpg" />
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ============================= -->
-  <!--    SECTION 3: NUMBER BAR      -->
-  <!-- ============================= -->
-
-  <section class="kz-section kz-section-number-bar container">
-    <div class="row mt-2">
-      <div class="col-6 col-md-3 text-center mb-5 kz-number-tile">
-        <p>Startups</p>
-        <p class="kz-number-tile-value">42</p>
-      </div>
-      <div class="col-6 col-md-3 text-center mb-5 kz-number-tile">
-        <p>Startups</p>
-        <p class="kz-number-tile-value">100</p>
-      </div>
-      <div class="col-6 col-md-3 text-center mb-5 kz-number-tile">
-        <p>Startups</p>
-        <p class="kz-number-tile-value">21</p>
-      </div>
-      <div class="col-6 col-md-3 text-center mb-5 kz-number-tile">
-        <p>Startups</p>
-        <p class="kz-number-tile-value">7</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================= -->
-  <!--     SECTION 4: TEAM       -->
-  <!-- ========================= -->
-
-  <section class="kz-section kz-section-team kz-section-alt">
-    <h2 class="section-title"><span>O</span>ur team<span>.</span></h2>
-    <div class="container mt-5">
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <div class="container">
-            <div class="row">
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-              <div class="col-6">
-                <img class="w-100" src="res/img/nav1.jpg" />
-              </div>
-            </div>
+      <div class="row text-center" style="margin-top: 30px; padding: 20px;">
+        <div class="col-md-2" style="padding: 0px;">
+          <div class="event-img">
+            <img src="res/img/logo.jpg" />
           </div>
         </div>
-        <div class="col-sm-6">
-          <p>
-            Nostrud laboris consequat ex ut duis cillum sit incididunt duis
-            ea. Eu minim nostrud eiusmod voluptate. Qui commodo consectetur
-            consequat proident occaecat aute duis. Ut exercitation tempor sint
-            Lorem Lorem aliquip do voluptate et id elit deserunt id ea. Ad
-            irure mollit id irure consequat quis excepteur duis commodo
-            consequat voluptate quis. Qui laboris minim laborum aliquip
-            cupidatat do do voluptate velit consectetur. <br /><br />
-            Commodo esse labore velit in consectetur in voluptate ipsum
-            commodo dolor excepteur ad fugiat. Ullamco elit sint voluptate
-            culpa officia duis sunt qui commodo. Aliquip officia laborum
-            eiusmod consequat ut occaecat sit id. Et aliqua fugiat qui ad sit
-            culpa. Enim adipisicing duis ea ipsum laboris. Non nisi aliquip
-            veniam sit eiusmod ad pariatur duis adipisicing ex velit voluptate
-            magna ea.
-          </p>
+      </div>
+      <div class="row text-center" style="margin-top: 30px; padding: 20px;">
+        <div class="col-md-2" style="padding: 0px;">
+          <div class="event-img">
+            <img src="res/img/logo.jpg" />
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================ -->
-  <!--     SECTION 5: GALLERY       -->
-  <!-- ============================ -->
-  <section class="kz-section kz-section-gallery">
-    <h2 class="section-title"><span>W</span>all of fame<span>.</span></h2>
-    <div class="kz-grid mt-1">
-      <div class="one">
-        <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
-      </div>
-      <div class="two">
-        <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
-      </div>
-      <div class="three">
-        <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
-      </div>
-      <div class="four">
-        <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
-      </div>
-      <div class="five">
-        <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
-      </div>
-      <div class="six">
-        <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
-      </div>
-      <div class="seven">
-        <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
-      </div>
-      <div class="eight">
-        <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================= -->
-  <!--    SECTION 6: SERVICES    -->
-  <!-- ========================= -->
-
-  <section class="kz-section kz-section-services container">
-    <h2 class="section-title"><span>W</span>hat we offer<span>.</span></h2>
-    <div class="row mt-5">
-      <div class="col-6 col-md-4 text-center mb-3">
-        <img class="w-100 mb-3" style="max-width: 100px;" src="res/img/logo.jpg" />
-        <p style="font-size: 1.4rem; letter-spacing: 0.4px; font-weight: 300; text-transform: uppercase;">
-          Incubation
-        </p>
-      </div>
-      <div class="col-6 col-md-4 text-center mb-3">
-        <img class="w-100 mb-3" style="max-width: 100px;" src="res/img/logo.jpg" />
-        <p style="font-size: 1.4rem; letter-spacing: 0.4px; font-weight: 300; text-transform: uppercase;">
-          Incubation
-        </p>
-      </div>
-      <div class="col-6 col-md-4 text-center mb-3">
-        <img class="w-100 mb-3" style="max-width: 100px;" src="res/img/logo.jpg" />
-        <p style="font-size: 1.4rem; letter-spacing: 0.4px; font-weight: 300; text-transform: uppercase;">
-          Incubation
-        </p>
-      </div>
-      <div class="col-6 col-md-4 text-center mb-3">
-        <img class="w-100 mb-3" style="max-width: 100px;" src="res/img/logo.jpg" />
-        <p style="font-size: 1.4rem; letter-spacing: 0.4px; font-weight: 300; text-transform: uppercase;">
-          Incubation
-        </p>
       </div>
     </div>
   </section>
@@ -346,42 +182,6 @@
           </div>
         </div>
       </form>
-    </div>
-  </section>
-
-  <!-- ============================= -->
-  <!--     SECTION 9: VISITORS       -->
-  <!-- ============================= -->
-  <section class="kz-section kz-section-visitors kz-section-alt">
-    <h2 class="section-title"><span>V</span>isitors @ SIIC<span>.</span></h2>
-    <div class="kz-grid mt-1">
-      <div class="one">
-        <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
-      </div>
-      <div class="two">
-        <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
-      </div>
-      <div class="three">
-        <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
-      </div>
-      <div class="four">
-        <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
-      </div>
-      <div class="five">
-        <img class="w-100 h-100" src="res/img/nav3.jpg" alt="image" />
-      </div>
-      <div class="six">
-        <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
-      </div>
-      <div class="seven">
-        <img class="w-100 h-100" src="res/img/nav1.jpg" alt="image" />
-      </div>
-      <div class="eight">
-        <img class="w-100 h-100" src="res/img/nav4.jpg" alt="image" />
-      </div>
-      <div class="nine">
-        <img class="w-100 h-100" src="res/img/nav2.jpg" alt="image" />
-      </div>
     </div>
   </section>
 
@@ -492,6 +292,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="res/js/script.js"></script>
+  <script src="res/js/navbar.js"></script>
 </body>
 
 </html>
