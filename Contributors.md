@@ -2,5 +2,5 @@
 
 Aakash Sharma ★\
 Shrey Sachdeva ★\
-Ishan Chhabra
+Ishan Chhabra \
 Divij Tripathi
