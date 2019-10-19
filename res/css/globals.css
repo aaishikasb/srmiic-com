@@ -44,11 +44,11 @@ body {
 }
 
 .kz-section .section-title span {
-  color: #ffc429;
+  color: #178e96;
 }
 
 .kz-yellow {
-  color: #ffc429;
+  color: #178e96;
 }
 
 .kz-light {
@@ -60,8 +60,8 @@ body {
 }
 
 .kz-btn {
-  background-color: #ffc429;
-  border-color: #ffc429;
+  background-color: #178e96;
+  border-color: #178e96;
   color: white;
   width: 100%;
   padding-left: 24px;
@@ -97,6 +97,6 @@ body {
 }
 
 .form-control:focus {
-  border-color: #ffc429;
+  border-color: #178e96;
   box-shadow: 0 0 0 0.2rem rgba(218, 158, 0, 0.25);
 }

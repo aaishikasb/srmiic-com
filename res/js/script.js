@@ -9,7 +9,7 @@ console.log(
   "background: #212121; color: #f69510; padding: 6px; border-radius: 4px;"
 );
 
-console.log = () => { }
+//console.log = () => { }
 console.error = () => { }
 console.warn = () => { }
 
@@ -205,7 +205,31 @@ function setImageFiveThree() {
 //6//
 $(document).ready(function () {
   setImageSixOne();
+  changeH1Title();
 });
+
+function changeH1Title() {
+
+  if ($('.kz-hero-box h1.kz-title') === undefined) return
+
+  var width = $(this).width()
+  if (width < 810) {
+    $('.kz-hero-box h1.kz-title').text('SIIC')
+  } else {
+    $('.kz-hero-box h1.kz-title').text('SRM Innovation and Incubation Centre')
+  }
+
+  $(window).resize(function () {
+    var width = $(this).width()
+    if (width < 810) {
+      $('.kz-hero-box h1.kz-title').text('SIIC')
+    } else {
+      $('.kz-hero-box h1.kz-title').text('SRM Innovation and Incubation Centre')
+    }
+  });
+
+}
+
 function setImageSixOne() {
   $("#imageSwap6")
     .fadeIn(1000)
