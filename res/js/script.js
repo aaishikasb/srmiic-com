@@ -1,9 +1,17 @@
-// LOLOLOL
 var array = ["res/img/TT/1.jpeg", "res/img/TT/2.jpeg", "res/img/TT/3.jpeg", "res/img/TT/4.jpeg", "res/img/TT/5.jpeg", "res/img/TT/6.jpeg", "res/img/TT/7.jpeg", "res/img/TT/8.jpg", "res/img/TT/9.jpg", "res/img/TT/10.jpg", "res/img/TT/11.jpg", "res/img/TT/12.jpg", "res/img/TT/13.jpg", "res/img/TT/14.jpg", "res/img/TT/15.jpeg", "res/img/TT/16.jpg"]
 
 function getRandomImage() {
   return array[Math.floor(Math.random() * array.length)];
 }
+
+console.log(
+  "%cThe developer console is disabled for good! :)\ncrafted with ♥ by SRMKZILLA (https://srmkzilla.net/)",
+  "background: #212121; color: #f69510; padding: 6px; border-radius: 4px;"
+);
+
+//console.log = () => { }
+console.error = () => { }
+console.warn = () => { }
 
 // $(document).ready(() => {
 //   setInterval(() => {
@@ -197,7 +205,31 @@ function setImageFiveThree() {
 //6//
 $(document).ready(function () {
   setImageSixOne();
+  changeH1Title();
 });
+
+function changeH1Title() {
+
+  if ($('.kz-hero-box h1.kz-title') === undefined) return
+
+  var width = $(this).width()
+  if (width < 810) {
+    $('.kz-hero-box h1.kz-title').text('SIIC')
+  } else {
+    $('.kz-hero-box h1.kz-title').text('SRM Innovation and Incubation Centre')
+  }
+
+  $(window).resize(function () {
+    var width = $(this).width()
+    if (width < 810) {
+      $('.kz-hero-box h1.kz-title').text('SIIC')
+    } else {
+      $('.kz-hero-box h1.kz-title').text('SRM Innovation and Incubation Centre')
+    }
+  });
+
+}
+
 function setImageSixOne() {
   $("#imageSwap6")
     .fadeIn(1000)
