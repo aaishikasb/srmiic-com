@@ -39,11 +39,16 @@
     <link rel="stylesheet" href="res/css/globals.css" />
     <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/navbar.css" />
+    <link rel="stylesheet" href="res/css/aboutus.css" />
 </head>
 
-<body>
+<body onload="web_loader()">
 
-    <section class="kz-section-hero">
+    <div id="loading">
+        <img src="res/img/logo.jpg" />
+    </div>
+
+    <section class="kz-section-hero" style="background-image: url(res/img/aboutus-hero-01.svg);">
         <div class="kz-headbar d-flex justify-content-between">
             <a href="/">
                 <img data-aos="fade-right" src="res/img/logo.jpg" alt="logo" class="kz-logo" />
@@ -93,28 +98,118 @@
         </div>
 
         <div class="kz-hero-box">
-            <h1 data-aos="fade-down">About US</h1>
             <div data-aos="fade-up" class="d-sm-block d-md-none applybtn">
-                <a href="http://bit.ly/SIICform"><button>Apply Now</button></a>
+                <a href="http://bit.ly/SIICform"><button style="margin-top: 20rem;">Apply Now</button></a>
             </div>
         </div>
     </section>
 
     <section class="kz-section">
-
         <h2 data-aos="fade-down" class="section-title"><span>A</span>bout us<span>.</span></h2>
         <div class="container mt-5">
-            <div class="row mt-5">
-                <div class="col-sm-12" data-aos="fade-right">
+            <div class="row mt-5 aboutus-content">
+                <div class="col-sm-12 col-md-6 col-lg-6 d-sm-block d-md-none d-lg-none text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-1.svg" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <p>
-                        Our goal is seeing you achieve yours. Our motivation is your passion. We help your ideas take
-                        flight in by being the harbingers of resources and constructive criticisms all while viewing it
-                        through the prism of reality.
+                        We started off in 2015, with an aim to create an ambient atmosphere for all you different minds
+                        out there and provide exciting new opportunities to let your dreams evolve into realities and in
+                        the process make this world a better place.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 d-none d-sm-none d-md-block d-lg-block text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-1.svg" />
+                </div>
+            </div>
+    </section>
+
+    <section class="kz-section">
+        <h2 data-aos="fade-down" class="section-title"><span>W</span>hat do we do<span>?</span></h2>
+        <div class="container mt-5">
+            <div class="row mt-5 aboutus-content">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-right">
+                    <img src="res/img/About/about-us-2.svg" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
+                    <p>
+                        Remember the last time you had a Eureka moment create something and you went on discussing it
+                        only to have your idea discarded as being ‘impossible’ or because you thought you didn’t have
+                        the resources or expertise to do so? Well we are here waiting for you and for everyone who wants
+                        to innovate.
                     </p>
                 </div>
             </div>
-
     </section>
+
+    <section class="kz-section">
+        <h2 data-aos="fade-down" class="section-title"><span>H</span>ow we do it<span>?</span></h2>
+        <div class="container mt-5">
+            <div class="row mt-5 aboutus-content">
+                <div class="col-sm-12 col-md-6 col-lg-6 d-sm-block d-md-none d-lg-none text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-3.svg" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
+                    <p>
+                        We help to connect. So, let’s say you have a certain skill set e.g. designing, photography,
+                        content writing etc. So once you post your profile with us, you become visible to the whole
+                        industry looking for people like you. If their requirements get matched, you might land up with
+                        an assignment/internship/job with them. Amazing isn’t it? Whether you have an idea or not, your
+                        spirit of learning and contributing is all that we are looking for and value.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 d-none d-sm-none d-md-block d-lg-block text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-3.svg" />
+                </div>
+            </div>
+    </section>
+
+    <section class="kz-section">
+        <h2 data-aos="fade-down" class="section-title"><span>W</span>hat Does The SIIC Do For Startups<span>?</span>
+        </h2>
+        <div class="container mt-5">
+            <div class="row mt-5 aboutus-content">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-right">
+                    <img src="res/img/About/about-us-4.svg" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
+                    <p>
+                        The SIIC is an incubator, and therefore, it does things like providing infrastructure, funding,
+                        mentorship, workspace and the overall nurturing that a team/startup requires. Straight from the
+                        inception of an idea to the emergence of said idea into an end result, the SIIC coaches
+                        teams/startups through the entire process.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section class="kz-section">
+        <h2 data-aos="fade-down" class="section-title"><span>W</span>ho can join us<span>?</span></h2>
+        <div class="container mt-5">
+            <div class="row mt-5 aboutus-content">
+                <div class="col-sm-12 col-md-6 col-lg-6 d-sm-block d-md-none d-lg-none text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-5.svg" />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
+                    <p>
+                        YOU. The mere fact that you have taken time to explore us is testimony enough that you have what
+                        we are looking for: aspirations. And trust us, we are here to nurture your aspirations. So come
+                        join us as we take a leap of faith into the future.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 d-none d-sm-none d-md-block d-lg-block text-center"
+                    data-aos="fade-left">
+                    <img src="res/img/About/about-us-5.svg" />
+                </div>
+            </div>
+    </section>
+
+
 
 
     <!-- ============================= -->
@@ -226,15 +321,22 @@
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <script src="res/js/navbar.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        var pre_loader = document.getElementById('loading');
+
+        function web_loader() {
+            pre_loader.style.display = 'none';
+        }
     </script>
 </body>
 
