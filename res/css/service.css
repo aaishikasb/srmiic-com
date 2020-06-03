@@ -1,0 +1,63 @@
+.kz-section-services {
+    padding: 48px 50px;
+    padding-right: 10px;
+    overflow: hidden;
+    background-image: url(../img/sercives/sercive-guy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+.kz-service-title1 {
+    border-left: 10px solid #ffc429;
+    font-size: 75px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kz-service-title2 {
+    border-left: 10px solid #000000;
+    font-size: 90px;
+    color: #ffc429;
+    padding-left: 10px;
+}
+
+.kz-image-box {
+    opacity: 0.75;
+    color: transparent;
+    border: 2px solid #da9e00;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 5%;
+    transform: scale(0.97);
+    margin-bottom: 0;
+}
+
+.kz-image-box:hover {
+    opacity: 1;
+    color: #000000;
+    transform: scale(1.28);
+    transition: 0.5s;
+    padding-top: 4%;
+}
+
+.kz-section-services .mb-3 {
+    margin-bottom: 0.5rem!important;
+}
+
+@media (max-width:968px) {
+    .kz-image-box {
+        border: none;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 5%;
+        transform: scale(0.99);
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .kz-section-services {
+        background-position: center;
+      }
+}
