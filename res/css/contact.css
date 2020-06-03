@@ -1,0 +1,28 @@
+.kz-section-contact {
+    padding: 48px 50px;
+    padding-right: 10px;
+    overflow: hidden;
+    background-image: url(../img/sercives/sercive-guy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+.kz-contact-title1 {
+    border-left: 10px solid #ffc429;
+    font-size: 60px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kz-contact-title2 {
+    border-left: 10px solid #000000;
+    font-size: 90px;
+    color: #ffc429;
+    padding-left: 10px;
+}
+
+.kz-contact-title3 {
+    font-size: 60px;
+    color: #706e6a;
+    padding-left: 10px;
+}
