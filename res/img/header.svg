@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="780px" height="485px" viewBox="0 0 780 485" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>header</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="header" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
-            <rect id="backgroundrect" fill="#FFFFFF" x="3" y="0" width="777" height="480"></rect>
-            <g id="Layer-1">
-                <rect id="svg_2" stroke="#178E96" stroke-width="2" fill="#178E96" stroke-linejoin="round" x="2" y="0" width="777" height="481"></rect>
-                <path d="M697.319823,484 C737.092043,381.850833 594.018569,502.168329 407.695838,424.188216 L364.430781,401.884404 C105.269844,230.716578 312.220422,103.552634 170.90053,133.432216 L90.2959923,148.709162 C20.8455071,168.03422 62.1819554,86.0928882 60.8696822,74.2933318 C60.2135455,29.7172588 -0.150795403,38.8946826 0.40559253,38.5800159 C-0.150795403,38.8946826 -0.150795403,482.688934 0.505341241,482.688934" id="svg_1" fill="#000000"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="780" height="485" version="1.1" viewBox="0 0 780 485"><title>header</title><desc>Created with Sketch.</desc><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="header" fill-rule="nonzero" transform="translate(0.000000, 1.000000)"><rect id="backgroundrect" width="777" height="480" x="3" y="0" fill="#FFF"/><g id="Layer-1"><rect id="svg_2" width="777" height="481" x="2" y="0" fill="#178E96" stroke="#178E96" stroke-linejoin="round" stroke-width="2"/><path id="svg_1" fill="#000" d="M697.319823,484 C737.092043,381.850833 594.018569,502.168329 407.695838,424.188216 L364.430781,401.884404 C105.269844,230.716578 312.220422,103.552634 170.90053,133.432216 L90.2959923,148.709162 C20.8455071,168.03422 62.1819554,86.0928882 60.8696822,74.2933318 C60.2135455,29.7172588 -0.150795403,38.8946826 0.40559253,38.5800159 C-0.150795403,38.8946826 -0.150795403,482.688934 0.505341241,482.688934"/></g></g></g></svg>
